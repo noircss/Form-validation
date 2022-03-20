@@ -1,0 +1,52 @@
+*{
+  font-family: Roboto;
+}
+
+body {
+background: rgb(64,55,203);
+background: -moz-linear-gradient(144deg, rgba(64,55,203,1) 0%, rgba(95,236,69,1) 100%);
+background: -webkit-linear-gradient(144deg, rgba(64,55,203,1) 0%, rgba(95,236,69,1) 100%);
+background: linear-gradient(144deg, rgba(64,55,203,1) 0%, rgba(95,236,69,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4037cb",endColorstr="#5fec45",GradientType=1);
+}
+
+.container {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+.container > form {
+  width: 70%;
+  border: 1px solid #dfdfdf;
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 7px 11px 68px -28px rgba(0,0,0,0.52);
+  -webkit-box-shadow: 7px 11px 68px -28px rgba(0,0,0,0.52);
+  -moz-box-shadow: 7px 11px 68px -28px rgba(0,0,0,0.52);
+}
+pre {
+  width: 70%;
+  color: #fff;
+  font-size: larger;
+}
+
+button {
+background: rgb(64,55,203) !important;
+background: -moz-linear-gradient(144deg, rgba(64,55,203,1) 0%, rgba(95,236,69,1) 100%) !important;
+background: -webkit-linear-gradient(144deg, rgba(64,55,203,1) 0%, rgba(95,236,69,1) 100%) !important;
+background: linear-gradient(144deg, rgba(64,55,203,1) 0%, rgba(95,236,69,1) 100%) !important;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4037cb",endColorstr="#5fec45",GradientType=1);
+}
+button:hover{
+  background: black !important;
+  transition: .3s ease-in !important;
+}
+p {
+  color: red;
+}
